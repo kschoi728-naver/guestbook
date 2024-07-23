@@ -6,7 +6,7 @@ pipeline {
     agent any
     environment {
         strDockerTag = "${TODAY}_${BUILD_ID}"
-        strDockerImage ="kschoi728-naver/cicd_guestbook:${strDockerTag}"
+        strDockerImage ="kschoi728/cicd_guestbook:${strDockerTag}"
     }
 
     stages {
